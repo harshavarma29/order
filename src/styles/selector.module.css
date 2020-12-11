@@ -3,7 +3,7 @@
 }
 
 .left, .right {
-    width: 48.2%;
+    width: 45%;
     float: left;
     font-size: 25px;
     padding: 10px;
@@ -12,4 +12,10 @@
 
 .right {
     background-color: rgb(206, 203, 203);
+}
+
+@media screen and (max-width: 540px) {
+    .left, .right {
+        width: 100%;
+    }
 }
