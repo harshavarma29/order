@@ -2,6 +2,7 @@
     width: 60%;
     margin: 35px auto 20px auto;
     overflow: auto;
+    background-color: green;
 }
 
 .blocks {
